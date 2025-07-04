@@ -92,10 +92,12 @@
 }
 .btn-outline-blue {
     border: 2px solid var(--color-primary);
+    background: none;
     color: var(--color-primary);
 }
 .btn-outline-white {
     border: 2px solid #fff;
+    background: none;
     color: #fff;
 }
 
