@@ -98,3 +98,11 @@
     border: 2px solid #fff;
     color: #fff;
 }
+
+/* layout */
+.section {
+    width: 100vw;
+    max-width: 144rem;
+    padding: 0 2.4rem;
+    text-align: center;
+}
