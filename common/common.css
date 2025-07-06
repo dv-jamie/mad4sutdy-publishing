@@ -21,12 +21,15 @@
 }
 
 /* title */
+.title {
+    line-height: 1.2;
+}
 .title-main {
     font-size: 7.6rem;
     font-weight: 900;
 }
 .title-section {
-    font-size: 7.6rem;
+    font-size: 6.4rem;
     font-weight: 700;
 }
 .title-banner {
@@ -34,11 +37,11 @@
     font-weight: 700;
 }
 .title-card {
-    font-size: 4.8rem;
-    font-weight: 800;
+    font-size: 3.2rem;
+    font-weight: 700;
 }
 .title-sub {
-    font-size: 3.8rem;
+    font-size: 3.2rem;
     font-weight: 700;
 }
 
@@ -72,18 +75,18 @@
     align-items: center;
     gap: 0.8rem;
     border-radius: 99rem;
-    font-weight: 700;
+    font-weight: 500;
     cursor: pointer;
 }
 .btn-lg {
     width: 32rem;
     height: 7rem;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
 }
 .btn-base {
     width: 25.2rem;
     height: 6rem;
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
 .btn-solid-blue {
     border: 2px solid var(--color-primary);
@@ -99,6 +102,9 @@
     border: 2px solid #fff;
     background: none;
     color: #fff;
+}
+.btn img {
+    width: 2.6rem;
 }
 
 /* layout */
