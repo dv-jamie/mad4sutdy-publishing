@@ -1,10 +1,6 @@
 #main-section {
-    width: 100vw;
     background: url('../../src/imgs/main-bg.jpg') no-repeat center top;
     background-size: cover;
-}
-#main-section .content-wrap {
-    padding-top: 24rem;
 }
 #main-section .ranking-wrap img {
     width: 13rem;

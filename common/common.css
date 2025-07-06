@@ -104,7 +104,10 @@
 /* layout */
 .section {
     width: 100vw;
-    max-width: 144rem;
-    padding: 0 2.4rem;
     text-align: center;
+}
+.section .content-wrap {
+    max-width: 144rem;
+    margin: 0 auto;
+    padding: 16.4rem 2.4rem 0;
 }
