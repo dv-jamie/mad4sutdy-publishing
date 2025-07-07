@@ -86,12 +86,14 @@
     margin-bottom: 1.4rem;
 }
 
+#price-banner-section {
+    background: var(--gradient-dark);
+}
 #price-banner-section .content-wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 4.8rem 2.4rem;
-    background: var(--gradient-dark);
     color: #fff;
     text-align: left;
 }
