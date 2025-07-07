@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_2" data-name="레이어 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #6c757d;
+      }
+    </style>
+  </defs>
+  <g id="_레이어_1-2" data-name="레이어 1">
+    <g>
+      <circle class="cls-2" cx="18" cy="18" r="18"/>
+      <g>
+        <line class="cls-1" x1="26.19" y1="9.81" x2="9.81" y2="26.19"/>
+        <line class="cls-1" x1="26.19" y1="26.19" x2="9.81" y2="9.81"/>
+      </g>
+    </g>
+  </g>
+</svg>

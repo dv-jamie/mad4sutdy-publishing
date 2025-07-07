@@ -282,3 +282,48 @@
     font-size: 5.2rem;
     font-weight: 700;
 }
+
+#tutor-section .table-wrap {
+    display: flex;
+    justify-content: center;
+    gap: 2.4rem;
+}
+#tutor-section .table {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    width: 100%;
+    margin-top: 6.4rem;
+}
+#tutor-section .table li {
+    padding: 2.4rem;
+    border-radius: 2.4rem;
+    box-shadow: var(--box-shadow-base);
+}
+#tutor-section .general-tutor-table li {
+    background: var(--color-gray-200);
+    border: 2px solid var(--color-gray-700);
+}
+#tutor-section .tesol-tutor-table li {
+    background: #fff;
+    border: 2px solid var(--color-primary);
+}
+#tutor-section .general-tutor-table .title-row {
+    background: var(--gradient-gray);
+}
+#tutor-section .tesol-tutor-table .title-row {
+    background: var(--gradient-primary);
+}
+#tutor-section .title-row {
+    color: #fff;
+    font-weight: 700;
+}
+#tutor-section .table img {
+    width: 3.6rem;
+}
+#tutor-section .description {
+    color: var(--color-gray-700);
+}
+#tutor-section .description span {
+    font-weight: 700;
+}
