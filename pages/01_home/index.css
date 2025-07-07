@@ -18,11 +18,6 @@
 #main-section .title-main {
     margin: 4rem 0;
 }
-#main-section .gradient-text {
-    background: var(--gradient-blue);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 #main-section .arrow-down-icon {
     width: 4rem;
     margin-top: 7.6rem;
@@ -114,4 +109,46 @@
 }
 #price-banner-section .btn {
     margin-top: 6rem;
+}
+
+#reason-section {
+    background: var(--color-gray-100);
+}
+#reason-section .title-sub {
+    margin-bottom: 1.2rem;
+    color: var(--color-primary);
+}
+#reason-section .card-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.4rem;
+    padding: 6.4rem;
+    text-align: left;
+}
+#reason-section .card {
+    display: flex;
+    justify-content: space-between;
+    padding: 4.8rem;
+    border-radius: 4.8rem;
+    background: #fff;
+    box-shadow: var(--box-shadow-base);
+    width: 100%;
+}
+#reason-section .card-number {
+    font-weight: 700;
+    letter-spacing: 0;
+}
+#reason-section .title {
+    margin: 0.8rem 0 1.6rem;
+}
+#reason-section .gradient-text-primary {
+    font-weight: 900;
+}
+#reason-section .description span {
+    font-weight: 800;
+}
+#reason-section .card-list img {
+    width: 52rem;
 }
