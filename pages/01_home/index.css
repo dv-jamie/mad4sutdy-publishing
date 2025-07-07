@@ -9,11 +9,8 @@
     width: 13rem;
     margin-bottom: 1.6rem;
 }
-#main-section .ranking-wrap .text-wrap {
+#main-section .text-wrap {
     font-weight: 500;
-}
-#main-section .title-sub {
-    margin-top: 0.4rem;
 }
 #main-section .title-main {
     margin: 4rem 0;
@@ -113,10 +110,6 @@
 
 #reason-section {
     background: var(--color-gray-100);
-}
-#reason-section .title-sub {
-    margin-bottom: 1.2rem;
-    color: var(--color-primary);
 }
 #reason-section .card-list {
     display: flex;

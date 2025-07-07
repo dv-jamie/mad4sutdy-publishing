@@ -48,6 +48,10 @@
     font-size: 3.2rem;
     font-weight: 600;
 }
+.section .title-sub {
+    margin-bottom: 1.2rem;
+    color: var(--color-primary);
+}
 
 /* text */
 .text-xl {
