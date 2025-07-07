@@ -141,9 +141,6 @@
 #reason-section .gradient-text-primary {
     font-weight: 900;
 }
-#reason-section .description span {
-    font-weight: 800;
-}
 #reason-section .card-list img {
     width: 52rem;
 }
@@ -283,6 +280,9 @@
     font-weight: 700;
 }
 
+#tutor-difference-section {
+    background: var(--color-gray-100);
+}
 #tutor-difference-section .table-wrap {
     display: flex;
     justify-content: center;
@@ -324,6 +324,36 @@
 #tutor-difference-section .description {
     color: var(--color-gray-700);
 }
-#tutor-difference-section .description span {
-    font-weight: 700;
+
+#tutor-intro-section {
+    background: var(--color-gray-200);
+}
+#tutor-intro-section .tutor-list {
+    display: flex;
+    justify-content: center;
+}
+#tutor-intro-section .tutor-list li {
+    padding: 3.2rem;
+    border-radius: 3.2rem;
+    background: #fff;
+    margin: 6.4rem 0;
+    box-shadow: var(--box-shadow-base);
+}
+#tutor-intro-section .name-wrap {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin-bottom: 2.4rem;
+}
+#tutor-intro-section .name-wrap span {
+    font-weight: 600;
+}
+#tutor-intro-section .country-img {
+    width: 4rem;
+}
+#tutor-intro-section .tutor-img {
+    width: 32rem;
+}
+#tutor-intro-section .description {
+    margin-bottom: 6.4rem;
 }
