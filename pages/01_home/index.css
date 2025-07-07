@@ -2,6 +2,9 @@
     background: url('../../src/imgs/main-bg.jpg') no-repeat center top;
     background-size: cover;
 }
+#main-section .content-wrap {
+    padding: 16.4rem 2.4rem 0;
+}
 #main-section .ranking-wrap img {
     width: 13rem;
     margin-bottom: 1.6rem;
@@ -89,4 +92,26 @@
 }
 #about-section .title-card {
     margin-bottom: 1.4rem;
+}
+
+#price-banner-section .content-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4.8rem 2.4rem;
+    background: var(--gradient-dark);
+    color: #fff;
+    text-align: left;
+}
+#price-banner-section .title-banner {
+    margin-bottom: 2.4rem;
+}
+#price-banner-section .banner-img-wrap {
+    width: 48rem;
+}
+#price-banner-section .title-banner {
+    margin-bottom: 2.4rem;
+}
+#price-banner-section .btn {
+    margin-top: 6rem;
 }
