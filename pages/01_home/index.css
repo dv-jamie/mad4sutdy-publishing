@@ -148,6 +148,10 @@
     width: 52rem;
 }
 
+#graph-section {
+    background: url('../../src/imgs/graph-section-background.png') no-repeat center;
+    background-size: cover;
+}
 #graph-section .graph-wrap {
     position: relative;
     height: 48rem;
