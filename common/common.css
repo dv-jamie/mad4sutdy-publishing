@@ -14,8 +14,8 @@
     --color-gray-100: #f5f6fa;
 
     /* gradient */
-    --gradient-blue: linear-gradient(to right, #36c0e0, #1d9bf0);
-    --gradient-skyblue: linear-gradient(to right, #57dbe7, #1d9bf0);
+    --gradient-primary: linear-gradient(to right, #36c0e0, #1d9bf0);
+    --gradient-secondary: linear-gradient(to right, #57dbe7, #1d9bf0);
     --gradient-yellow: linear-gradient(to top, #fcd600, #febe00, #ffa500);
     --gradient-dark: linear-gradient(to left, #5d8a9f, #172b4c, #020308);
 
@@ -103,7 +103,7 @@
 }
 .btn-solid-primary {
     border: 2px solid var(--color-primary);
-    background: var(--gradient-blue);
+    background: var(--gradient-primary);
     color: #fff;
 }
 .btn-outline-primary {
