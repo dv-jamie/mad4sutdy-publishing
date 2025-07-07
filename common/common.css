@@ -15,7 +15,8 @@
 
     /* gradient */
     --gradient-primary: linear-gradient(to right, #36c0e0, #1d9bf0);
-    --gradient-secondary: linear-gradient(to bottom, #57dbe7, #1d9bf0);
+    --gradient-secondary-horizontal: linear-gradient(to right, #57dbe7, #1d9bf0);
+    --gradient-secondary-vertical: linear-gradient(to bottom, #57dbe7, #1d9bf0);
     --gradient-yellow: linear-gradient(to top, #fcd600, #febe00, #ffa500);
     --gradient-dark: linear-gradient(to left, #5d8a9f, #172b4c, #020308);
     --gradient-gray: linear-gradient(to right, #495057);
@@ -72,6 +73,11 @@
 }
 .gradient-text-primary {
     background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradient-text-secondary {
+    background: var(--gradient-secondary-horizontal);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

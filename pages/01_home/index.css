@@ -1,5 +1,5 @@
 #main-section {
-    background: url('../../src/imgs/main-bg.jpg') no-repeat center top;
+    background: url("../../src/imgs/main-bg.jpg") no-repeat center top;
     background-size: cover;
 }
 #main-section .content-wrap {
@@ -147,7 +147,7 @@
 }
 
 #graph-section {
-    background: url('../../src/imgs/graph-section-background.png') no-repeat center;
+    background: url("../../src/imgs/graph-section-background.png") no-repeat center;
     background-size: cover;
 }
 #graph-section .graph-wrap {
@@ -216,7 +216,7 @@
 #graph-section .bar-inner.highlight {
     position: absolute;
     border: 0.2rem solid var(--color-primary);
-    background: var(--gradient-secondary);
+    background: var(--gradient-secondary-vertical);
 }
 #graph-section .company-name {
     position: absolute;
@@ -357,4 +357,68 @@
 }
 #tutor-intro-section .description {
     margin-bottom: 6.4rem;
+}
+
+#book-banner-section {
+    background: var(--gradient-dark);
+    color: #fff;
+    text-align: left;
+}
+#book-banner-section .content-wrap > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#book-banner-section .title span {
+    font-weight: 800;
+}
+#book-banner-section .text-wrap .description-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin: 3.6rem 0;
+    color: var(--color-gray-400);
+}
+#book-banner-section .book-list {
+    display: flex;
+    gap: 2.4rem;
+}
+#book-banner-section .book-list li {
+    width: 20rem;
+    height: 32rem;
+    overflow: hidden;
+}
+#book-banner-section .book-list img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#book-banner-section .feature-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6.4rem;
+    text-align: center;
+}
+#book-banner-section .feature-list li {
+    position: relative;
+    width: 25%;
+}
+#book-banner-section .feature-list li:not(:last-of-type)::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    display: inline-block;
+    width: 0.2rem;
+    height: 6rem;
+    background: #fff;
+}
+#book-banner-section .feature-list .value {
+    font-size: 4.8rem;
+    font-weight: 700;
+}
+#book-banner-section .feature-list .description {
+    color: var(--color-gray-400);
 }
