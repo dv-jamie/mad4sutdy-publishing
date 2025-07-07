@@ -3,7 +3,7 @@
     background-size: cover;
 }
 #main-section .content-wrap {
-    padding: 16.4rem 2.4rem 0;
+    padding: 24rem 2.4rem 0;
 }
 #main-section .ranking-wrap img {
     width: 13rem;
@@ -15,14 +15,14 @@
 #main-section .title-main {
     margin: 4rem 0;
 }
-#main-section .arrow-down-icon {
+/* #main-section .arrow-down-icon {
     width: 4rem;
-    margin-top: 7.6rem;
-}
+    margin: 5.6rem 0 -0.8rem;
+} */
 #main-section .main-img-wrap {
     position: relative;
     width: 64rem;
-    margin: 0 auto;
+    margin: 4rem auto 0;
 }
 #main-section .mobile-img {
     position: relative;
