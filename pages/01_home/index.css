@@ -75,6 +75,7 @@
     height: 38rem;
     border: 2px solid var(--color-gray-900);
     border-radius: 2.4rem;
+    overflow: hidden;
 }
 #about-section .img-wrap img {
     width: 100%;
