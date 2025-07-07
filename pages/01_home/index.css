@@ -257,3 +257,28 @@
     right: -4.8rem;
     width: 20rem;
 }
+
+#performance-section {
+    background: var(--gradient-dark);
+}
+#performance-section .performance-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.2rem;
+    align-items: center;
+    padding: 0 4.8rem;
+    color: #fff;
+}
+#performance-section .performance-list li {
+    width: 20rem;
+}
+#performance-section .figure {
+    margin-bottom: 0.4rem;
+    font-size: 9.6rem;
+    font-weight: 800;
+}
+#performance-section .unit {
+    margin-left: 0.4rem;
+    font-size: 5.2rem;
+    font-weight: 700;
+}
