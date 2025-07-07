@@ -61,3 +61,10 @@ body {
 	line-height: 1.4;
 	letter-spacing: -0.1rem;
 }
+a,
+a:focus {
+	display: inline-block;
+	color: inherit;
+	text-decoration: none;
+	cursor: pointer;
+}
