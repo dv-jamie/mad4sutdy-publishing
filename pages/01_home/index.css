@@ -457,3 +457,27 @@
 #ai-system-section .title-card {
     margin-top: 0.4rem;
 }
+
+#hook-message-section {
+    background: var(--color-gray-100);
+}
+#hook-message-section .inner {
+    width: 88rem;
+    margin: 6.4rem auto;
+}
+#hook-message-section .img-wrap {
+    height: 54rem;
+    margin-bottom: 4rem;
+    border-radius: 2.4rem;
+    overflow: hidden;
+}
+#hook-message-section .img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#hook-message-section .description-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
