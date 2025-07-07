@@ -232,7 +232,7 @@
 }
 #graph-section .tooltip span {
     position: absolute;
-    top: 18%;
+    top: 12%;
     left: 50%;
     transform: translateX(-50%);
     color: #fff;
@@ -247,7 +247,7 @@
     text-wrap: nowrap;
 }
 #graph-section .bar-wrap p span {
-    font-weight: 700;
+    font-weight: 600;
 }
 #graph-section .graph-stamp {
     position: absolute;
