@@ -107,8 +107,8 @@
     font-size: 2.2rem;
 }
 .btn-base {
-    width: 25.2rem;
-    height: 6rem;
+    width: 20rem;
+    height: 5.4rem;
     font-size: 2rem;
 }
 .btn-solid-primary {
@@ -135,7 +135,7 @@
     text-align: center;
 }
 .section .content-wrap {
-    max-width: 144rem;
+    max-width: 128rem;
     margin: 0 auto;
     padding: 12rem 2.4rem;
 }

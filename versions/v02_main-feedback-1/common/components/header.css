@@ -16,7 +16,7 @@
 #header .header-inner {
     display: flex;
     width: 100%;
-    max-width: 144rem;
+    max-width: 128rem;
 }
 
 #header .more-sites-list {
@@ -50,7 +50,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 144rem;
+    max-width: 128rem;
 }
 #header .header-logo {
     width: 12rem;
