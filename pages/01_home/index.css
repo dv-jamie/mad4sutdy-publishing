@@ -3,6 +3,7 @@
     height: 100vh;
     background: url("../../src/imgs/main-bg-usa.jpg") no-repeat center bottom;
     background: url("../../src/imgs/main-bg-usa-dark.jpg") no-repeat center bottom;
+    background: url("../../src/imgs/main-bg-usa-city.jpg") no-repeat center bottom;
     object-fit: cover;
     overflow: hidden;
 }
@@ -13,13 +14,14 @@
     left: 0;
     display: block;
     width: 100%;
-    height: 100%;
-    background: linear-gradient(to bottom, #fff 0%, #fff 16%, transparent 100%);
+    height: 80%;
+    background: linear-gradient(to bottom, #fff 0%, transparent 100%);
     z-index: 1;
 }
 #main-section .content-wrap {
     position: relative;
-    margin-top: 16rem;
+    padding-top: 24rem;
+    height: 100%;
     z-index: 1;
 }
 #main-section .ranking-wrap span {
@@ -42,6 +44,12 @@
 }
 #main-section .btn-solid-primary {
     box-shadow: 0.4rem 0.4rem 2.4rem rgba(255, 255, 255, 0.8);
+}
+#main-section .main-mobile-img {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-49%);
 }
 
 #price-banner-section {
