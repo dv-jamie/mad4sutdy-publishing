@@ -115,6 +115,9 @@
     background: url("../../src/imgs/graph-section-background.png") no-repeat center;
     background-size: cover;
 }
+#graph-section .description {
+    margin-top: 1.2rem;
+}
 #graph-section .graph-wrap {
     position: relative;
     height: 48rem;
@@ -176,9 +179,46 @@
     width: 4rem;
     border-radius: 4rem 4rem 0 0;
     border: 0.2rem solid #fff;
-    background: var(--color-gray-200);
 }
-#graph-section .bar-inner.highlight {
+
+/* 각각 다른색 - 파스텔 */
+#graph-section .bar-wrap:nth-of-type(1) .bar-inner {
+    background: #f8d7da;
+}
+#graph-section .bar-wrap:nth-of-type(2) .bar-inner {
+    background: #ffe5b4;
+}
+#graph-section .bar-wrap:nth-of-type(3) .bar-inner {
+    background: #fff3cd;
+}
+#graph-section .bar-wrap:nth-of-type(4) .bar-inner {
+    background: #d4edda;
+}
+#graph-section .bar-wrap:nth-of-type(5) .bar-inner {
+    background: #d1ecf1;
+}
+#graph-section .bar-wrap:nth-of-type(6) .bar-inner {
+    background: #cde0f7;
+}
+#graph-section .bar-wrap:nth-of-type(7) .bar-inner {
+    background: #e2d9f3;
+}
+#graph-section .bar-wrap:nth-of-type(9) .bar-inner {
+    background: #e8e0d9;
+}
+#graph-section .bar-wrap:nth-of-type(10) .bar-inner {
+    background: #f9d6e5;
+}
+
+/* 홀짝 */
+/* #graph-section .bar-wrap:nth-of-type(even) .bar-inner {
+    background: #d1ecf1;
+}
+#graph-section .bar-wrap:nth-of-type(odd) .bar-inner {
+    background: #ffe5b4;
+} */
+
+#graph-section .bar-wrap .bar-inner.highlight {
     position: absolute;
     border: 0.2rem solid var(--color-primary);
     background: var(--gradient-secondary-vertical);
@@ -204,21 +244,31 @@
     z-index: 10;
     text-wrap: nowrap;
 }
-#graph-section .bar-wrap p {
+#graph-section .bar-wrap .caption {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: -3.6rem;
+    bottom: -6.4rem;
     text-wrap: nowrap;
 }
-#graph-section .bar-wrap p span {
+#graph-section .caption span {
     font-weight: 600;
+}
+#graph-section .caption p:last-of-type {
+    letter-spacing: 0;
+    color: var(--color-gray-500);
 }
 #graph-section .graph-stamp {
     position: absolute;
     top: -5.6rem;
     right: -4.8rem;
     width: 20rem;
+}
+#graph-section .text-wrap {
+    margin-top: 12rem;
+}
+#graph-section .text-wrap h4 {
+    font-weight: 600;
 }
 
 #performance-section {
