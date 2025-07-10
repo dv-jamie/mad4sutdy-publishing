@@ -10,7 +10,15 @@
     height: 6rem;
     background: #fff;
     box-shadow: var(--box-shadow-base);
+    transition: 0.3s ease;
     z-index: 1000;
+}
+#header.remove-background {
+    background: transparent;
+    box-shadow: none;
+}
+#header.hide {
+    transform: translateY(-100%);
 }
 #header .more-sites-list,
 #header .header-inner {
