@@ -1,9 +1,8 @@
 #main-section {
     position: relative;
     height: 100vh;
-    background: url("../../src/imgs/main-bg-usa.jpg") no-repeat center bottom;
-    background: url("../../src/imgs/main-bg-usa-dark.jpg") no-repeat center bottom;
-    background: url("../../src/imgs/main-bg-usa-city.jpg") no-repeat center bottom;
+    /* background: url("../../src/imgs/main-bg-usa.jpg") no-repeat center bottom; */
+    background: url("../../src/imgs/main-bg-newyork.jpg") no-repeat center bottom;
     object-fit: cover;
     overflow: hidden;
 }
