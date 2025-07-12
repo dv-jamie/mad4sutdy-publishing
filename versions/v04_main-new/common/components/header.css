@@ -1,0 +1,90 @@
+#header {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4rem;
+    height: 6rem;
+    background: #fff;
+    box-shadow: var(--box-shadow-base);
+    transition: 0.3s ease;
+    z-index: 1000;
+}
+#header.remove-background {
+    background: transparent;
+    box-shadow: none;
+}
+#header.hide {
+    transform: translateY(-100%);
+}
+#header .more-sites-list,
+#header .header-inner {
+    display: flex;
+    width: 100%;
+    max-width: 128rem;
+}
+
+#header .more-sites-list {
+    justify-content: flex-end;
+}
+#header .more-sites-list li {
+    width: 18rem;
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 1;
+    cursor: pointer;
+}
+#header .more-sites-list li:not(:last-of-type) {
+    border-right: 1px solid var(--color-gray-900);
+}
+#header .more-sites-list li:hover {
+    color: var(--color-gray-700);
+}
+#header .more-sites-list span:first-of-type {
+    font-size: 1.6rem;
+}
+#header .more-sites-list span:last-of-type {
+    font-size: 1.4rem;
+    color: var(--color-gray-500);
+}
+
+#header .header-inner {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 128rem;
+}
+#header .header-logo {
+    width: 12rem;
+}
+
+#header .gnb ul {
+    display: flex;
+}
+#header .gnb li a {
+    padding: 0.4rem 3.2rem;
+    font-size: 1.8rem;
+}
+#header .gnb li a:hover,
+#header .login-btn:hover {
+    color: var(--color-gray-700);
+}
+
+#header .btn {
+    outline: none;
+    border: none;
+    background: none;
+    font-size: 1.6rem;
+    color: inherit;
+    padding: 0.8rem 2rem;
+}
+#header .apply-btn {
+    background: var(--gradient-primary);
+    color: #fff;
+}
